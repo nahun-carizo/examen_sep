@@ -81,7 +81,7 @@ function recuperar(pedido, respuesta) {
 //////
     const pagina =
       `<!doctype html><html><head></head><body>
-     Nombre de usuario:${formulario.get('nombre')}<br>
+     frase ingresada:${formulario.get('nombre')}<br>
      traduccion:${resultado}<br>
      <a href="index.html">Retornar</a>
      </body></html>`
